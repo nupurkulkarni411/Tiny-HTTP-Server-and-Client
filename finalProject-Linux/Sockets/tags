@@ -1,0 +1,226 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+$	tags	/^Socket::~Socket	Sockets.cpp	\/^Socket::~Socket() {$\/;"	f	class:Socket	signature:()$/;"	m	class:__anon1	file:	access:private
+A	ClassDiagram.pdf	/^“’Ø1˙xCøÎÿ«÷Ω_»÷}Pé:¢#˚aΩÂŸkŸgŒŒƒ÷˚4Íä6+»∞œ":Gr⁄≥q‚ˇX¿ˇ+ÕV∆$¸ÍVWE\/[y`æœìÛôÔÂbÊı3r9ÀŸF⁄|rµ‹¿\\ﬁdπâxò∆y˝L™«1o6’◊sÙjƒëc>5Œªëo/;"	v
+ClientHandler	Sockets.cpp	/^class ClientHandler$/;"	c	file:
+ClientHandler::operator ()	Sockets.cpp	/^  void operator()(Socket& socket_);$/;"	p	class:ClientHandler	file:	access:public	signature:(Socket& socket_)
+ClientHandler::operator ()	Sockets.cpp	/^void ClientHandler::operator()(Socket& socket_)$/;"	f	class:ClientHandler	signature:(Socket& socket_)
+ClientHandler::testBufferHandling	Sockets.cpp	/^  bool testBufferHandling(Socket& socket_);$/;"	p	class:ClientHandler	file:	access:public	signature:(Socket& socket_)
+ClientHandler::testBufferHandling	Sockets.cpp	/^bool ClientHandler::testBufferHandling(Socket& socket_)$/;"	f	class:ClientHandler	signature:(Socket& socket_)
+ClientHandler::testStringHandling	Sockets.cpp	/^  bool testStringHandling(Socket& socket_);$/;"	p	class:ClientHandler	file:	access:public	signature:(Socket& socket_)
+ClientHandler::testStringHandling	Sockets.cpp	/^bool ClientHandler::testStringHandling(Socket& socket_)$/;"	f	class:ClientHandler	signature:(Socket& socket_)
+IP4	Sockets.h	/^    enum IpVer { IP4, IP6 };$/;"	e	enum:Sockets::Socket::IpVer
+IP6	Sockets.h	/^    enum IpVer { IP4, IP6 };$/;"	e	enum:Sockets::Socket::IpVer
+IpVer	Sockets.h	/^    enum IpVer { IP4, IP6 };$/;"	g	class:Sockets::Socket	access:public
+SOCKET	Sockets.h	/^    operator ::SOCKET() { return socket_; }$/;"	f	class:Sockets::Socket::operator	access:public	signature:()
+SOCKETS_H	Sockets.h	2;"	d
+Socket	Sockets.cpp	/^Socket::Socket(::SOCKET sock) : socket_(sock)$/;"	f	class:Socket	signature:(::SOCKET sock)
+Socket	Sockets.cpp	/^Socket::Socket(IpVer ipver) : ipver_(ipver)$/;"	f	class:Socket	signature:(IpVer ipver)
+Socket	Sockets.cpp	/^Socket::Socket(Socket&& s)$/;"	f	class:Socket	signature:(Socket&& s)
+Socket	Sockets.h	/^    Socket(::SOCKET);$/;"	p	class:Sockets::Socket	access:public	signature:(::SOCKET)
+Socket	Sockets.h	/^    Socket(IpVer ipver = IP4);$/;"	p	class:Sockets::Socket	access:public	signature:(IpVer ipver = IP4)
+Socket	Sockets.h	/^    Socket(Socket&& s);$/;"	p	class:Sockets::Socket	access:public	signature:(Socket&& s)
+Socket	Sockets.h	/^  class Socket$/;"	c	namespace:Sockets
+Socket::Socket	Sockets.cpp	/^Socket::Socket(::SOCKET sock) : socket_(sock)$/;"	f	class:Socket	signature:(::SOCKET sock)
+Socket::Socket	Sockets.cpp	/^Socket::Socket(IpVer ipver) : ipver_(ipver)$/;"	f	class:Socket	signature:(IpVer ipver)
+Socket::Socket	Sockets.cpp	/^Socket::Socket(Socket&& s)$/;"	f	class:Socket	signature:(Socket&& s)
+Socket::bytesWaiting	Sockets.cpp	/^size_t Socket::bytesWaiting()$/;"	f	class:Socket	signature:()
+Socket::close	Sockets.cpp	/^void Socket::close()$/;"	f	class:Socket	signature:()
+Socket::ipVer	Sockets.cpp	/^Socket::IpVer& Socket::ipVer()$/;"	f	class:Socket	signature:()
+Socket::operator =	Sockets.cpp	/^Socket& Socket::operator=(Socket&& s)$/;"	f	class:Socket	signature:(Socket&& s)
+Socket::recv	Sockets.cpp	/^bool Socket::recv(size_t bytes, byte* buffer)$/;"	f	class:Socket	signature:(size_t bytes, byte* buffer)
+Socket::recvStream	Sockets.cpp	/^size_t Socket::recvStream(size_t bytes, byte* pBuf)$/;"	f	class:Socket	signature:(size_t bytes, byte* pBuf)
+Socket::recvString	Sockets.cpp	/^std::string Socket::recvString(byte terminator)$/;"	f	class:Socket	signature:(byte terminator)
+Socket::removeTerminator	Sockets.cpp	/^std::string Socket::removeTerminator(const std::string& src)$/;"	f	class:Socket	signature:(const std::string& src)
+Socket::send	Sockets.cpp	/^bool Socket::send(size_t bytes, byte* buffer)$/;"	f	class:Socket	signature:(size_t bytes, byte* buffer)
+Socket::sendStream	Sockets.cpp	/^size_t Socket::sendStream(size_t bytes, byte* pBuf)$/;"	f	class:Socket	signature:(size_t bytes, byte* pBuf)
+Socket::sendString	Sockets.cpp	/^bool Socket::sendString(const std::string& str, byte terminator)$/;"	f	class:Socket	signature:(const std::string& str, byte terminator)
+Socket::shutDown	Sockets.cpp	/^bool Socket::shutDown()$/;"	f	class:Socket	signature:()
+Socket::shutDownRecv	Sockets.cpp	/^bool Socket::shutDownRecv()$/;"	f	class:Socket	signature:()
+Socket::shutDownSend	Sockets.cpp	/^bool Socket::shutDownSend()$/;"	f	class:Socket	signature:()
+Socket::waitForData	Sockets.cpp	/^bool Socket::waitForData(size_t timeToWait, size_t timeToCheck)$/;"	f	class:Socket	signature:(size_t timeToWait, size_t timeToCheck)
+Socket::~Socket	Sockets.cpp	/^Socket::~Socket() {$/;"	f	class:Socket	signature:()
+SocketConnecter	Sockets.cpp	/^SocketConnecter::SocketConnecter() : Socket()$/;"	f	class:SocketConnecter	signature:()
+SocketConnecter	Sockets.cpp	/^SocketConnecter::SocketConnecter(SocketConnecter&& s) : Socket()$/;"	f	class:SocketConnecter	signature:(SocketConnecter&& s)
+SocketConnecter	Sockets.h	/^    SocketConnecter();$/;"	p	class:Sockets::SocketConnecter	access:public	signature:()
+SocketConnecter	Sockets.h	/^    SocketConnecter(SocketConnecter&& s);$/;"	p	class:Sockets::SocketConnecter	access:public	signature:(SocketConnecter&& s)
+SocketConnecter	Sockets.h	/^  class SocketConnecter : public Socket$/;"	c	namespace:Sockets	inherits:Socket
+SocketConnecter::SocketConnecter	Sockets.cpp	/^SocketConnecter::SocketConnecter() : Socket()$/;"	f	class:SocketConnecter	signature:()
+SocketConnecter::SocketConnecter	Sockets.cpp	/^SocketConnecter::SocketConnecter(SocketConnecter&& s) : Socket()$/;"	f	class:SocketConnecter	signature:(SocketConnecter&& s)
+SocketConnecter::connect	Sockets.cpp	/^bool SocketConnecter::connect(const std::string& ip, size_t port)$/;"	f	class:SocketConnecter	signature:(const std::string& ip, size_t port)
+SocketConnecter::operator =	Sockets.cpp	/^SocketConnecter& SocketConnecter::operator=(SocketConnecter&& s)$/;"	f	class:SocketConnecter	signature:(SocketConnecter&& s)
+SocketConnecter::~SocketConnecter	Sockets.cpp	/^SocketConnecter::~SocketConnecter()$/;"	f	class:SocketConnecter	signature:()
+SocketListener	Sockets.cpp	/^SocketListener::SocketListener(SocketListener&& s) : Socket()$/;"	f	class:SocketListener	signature:(SocketListener&& s)
+SocketListener	Sockets.cpp	/^SocketListener::SocketListener(size_t port, IpVer ipv) : Socket(ipv), port_(port)$/;"	f	class:SocketListener	signature:(size_t port, IpVer ipv)
+SocketListener	Sockets.h	/^    SocketListener(SocketListener&& s);$/;"	p	class:Sockets::SocketListener	access:public	signature:(SocketListener&& s)
+SocketListener	Sockets.h	/^    SocketListener(size_t port, IpVer ipv = IP6);$/;"	p	class:Sockets::SocketListener	access:public	signature:(size_t port, IpVer ipv = IP6)
+SocketListener	Sockets.h	/^  class SocketListener : public Socket$/;"	c	namespace:Sockets	inherits:Socket
+SocketListener::SocketListener	Sockets.cpp	/^SocketListener::SocketListener(SocketListener&& s) : Socket()$/;"	f	class:SocketListener	signature:(SocketListener&& s)
+SocketListener::SocketListener	Sockets.cpp	/^SocketListener::SocketListener(size_t port, IpVer ipv) : Socket(ipv), port_(port)$/;"	f	class:SocketListener	signature:(size_t port, IpVer ipv)
+SocketListener::accept	Sockets.cpp	/^Socket SocketListener::accept()$/;"	f	class:SocketListener	signature:()
+SocketListener::bind	Sockets.cpp	/^bool SocketListener::bind()$/;"	f	class:SocketListener	signature:()
+SocketListener::listen	Sockets.cpp	/^bool SocketListener::listen()$/;"	f	class:SocketListener	signature:()
+SocketListener::operator =	Sockets.cpp	/^SocketListener& SocketListener::operator=(SocketListener&& s)$/;"	f	class:SocketListener	signature:(SocketListener&& s)
+SocketListener::stop	Sockets.cpp	/^void SocketListener::stop()$/;"	f	class:SocketListener	signature:()
+SocketListener::~SocketListener	Sockets.cpp	/^SocketListener::~SocketListener()$/;"	f	class:SocketListener	signature:()
+SocketSystem	Sockets.cpp	/^SocketSystem::SocketSystem()$/;"	f	class:SocketSystem	signature:()
+SocketSystem	Sockets.h	/^    SocketSystem();$/;"	p	class:Sockets::SocketSystem	access:public	signature:()
+SocketSystem	Sockets.h	/^  class SocketSystem$/;"	c	namespace:Sockets
+SocketSystem::SocketSystem	Sockets.cpp	/^SocketSystem::SocketSystem()$/;"	f	class:SocketSystem	signature:()
+SocketSystem::~SocketSystem	Sockets.cpp	/^SocketSystem::~SocketSystem()$/;"	f	class:SocketSystem	signature:()
+Sockets	Sockets.h	/^namespace Sockets$/;"	n
+Sockets::Socket	Sockets.h	/^  class Socket$/;"	c	namespace:Sockets
+Sockets::Socket::IP4	Sockets.h	/^    enum IpVer { IP4, IP6 };$/;"	e	enum:Sockets::Socket::IpVer
+Sockets::Socket::IP6	Sockets.h	/^    enum IpVer { IP4, IP6 };$/;"	e	enum:Sockets::Socket::IpVer
+Sockets::Socket::IpVer	Sockets.h	/^    enum IpVer { IP4, IP6 };$/;"	g	class:Sockets::Socket	access:public
+Sockets::Socket::Socket	Sockets.h	/^    Socket(::SOCKET);$/;"	p	class:Sockets::Socket	access:public	signature:(::SOCKET)
+Sockets::Socket::Socket	Sockets.h	/^    Socket(IpVer ipver = IP4);$/;"	p	class:Sockets::Socket	access:public	signature:(IpVer ipver = IP4)
+Sockets::Socket::Socket	Sockets.h	/^    Socket(Socket&& s);$/;"	p	class:Sockets::Socket	access:public	signature:(Socket&& s)
+Sockets::Socket::bytesWaiting	Sockets.h	/^    size_t bytesWaiting();$/;"	p	class:Sockets::Socket	access:public	signature:()
+Sockets::Socket::close	Sockets.h	/^    void close();$/;"	p	class:Sockets::Socket	access:public	signature:()
+Sockets::Socket::hints	Sockets.h	/^    struct addrinfo *result = NULL, *ptr = NULL, hints;$/;"	m	class:Sockets::Socket	typeref:struct:Sockets::Socket::	access:protected
+Sockets::Socket::iResult	Sockets.h	/^    int iResult;$/;"	m	class:Sockets::Socket	access:protected
+Sockets::Socket::ipVer	Sockets.h	/^    IpVer& ipVer();$/;"	p	class:Sockets::Socket	access:public	signature:()
+Sockets::Socket::ipver_	Sockets.h	/^    IpVer ipver_ = IP4;$/;"	m	class:Sockets::Socket	access:protected
+Sockets::Socket::operator =	Sockets.h	/^    Socket& operator=(Socket&& s);$/;"	p	class:Sockets::Socket	access:public	signature:(Socket&& s)
+Sockets::Socket::operator::SOCKET	Sockets.h	/^    operator ::SOCKET() { return socket_; }$/;"	f	class:Sockets::Socket::operator	access:public	signature:()
+Sockets::Socket::ptr	Sockets.h	/^    struct addrinfo *result = NULL, *ptr = NULL, hints;$/;"	m	class:Sockets::Socket	typeref:struct:Sockets::Socket::	access:protected
+Sockets::Socket::recv	Sockets.h	/^    bool recv(size_t bytes, byte* buffer);$/;"	p	class:Sockets::Socket	access:public	signature:(size_t bytes, byte* buffer)
+Sockets::Socket::recvStream	Sockets.h	/^    size_t recvStream(size_t bytes, byte* buffer);$/;"	p	class:Sockets::Socket	access:public	signature:(size_t bytes, byte* buffer)
+Sockets::Socket::recvString	Sockets.h	/^    std::string recvString(byte terminator = '\\0');$/;"	p	class:Sockets::Socket	access:public	signature:(byte terminator = √)
+Sockets::Socket::removeTerminator	Sockets.h	/^    static std::string removeTerminator(const std::string& src);$/;"	p	class:Sockets::Socket	access:public	signature:(const std::string& src)
+Sockets::Socket::result	Sockets.h	/^    struct addrinfo *result = NULL, *ptr = NULL, hints;$/;"	m	class:Sockets::Socket	typeref:struct:Sockets::Socket::addrinfo	access:protected
+Sockets::Socket::s	Sockets.h	/^    Socket& operator=(const Socket& s) = delete;$/;"	m	class:Sockets::Socket	access:public
+Sockets::Socket::send	Sockets.h	/^    bool send(size_t bytes, byte* buffer);$/;"	p	class:Sockets::Socket	access:public	signature:(size_t bytes, byte* buffer)
+Sockets::Socket::sendStream	Sockets.h	/^    size_t sendStream(size_t bytes, byte* buffer);$/;"	p	class:Sockets::Socket	access:public	signature:(size_t bytes, byte* buffer)
+Sockets::Socket::sendString	Sockets.h	/^    bool sendString(const std::string& str, byte terminator = '\\0');$/;"	p	class:Sockets::Socket	access:public	signature:(const std::string& str, byte terminator = √)
+Sockets::Socket::shutDown	Sockets.h	/^    bool shutDown();$/;"	p	class:Sockets::Socket	access:public	signature:()
+Sockets::Socket::shutDownRecv	Sockets.h	/^    bool shutDownRecv();$/;"	p	class:Sockets::Socket	access:public	signature:()
+Sockets::Socket::shutDownSend	Sockets.h	/^    bool shutDownSend();$/;"	p	class:Sockets::Socket	access:public	signature:()
+Sockets::Socket::socket_	Sockets.h	/^    ::SOCKET socket_;$/;"	m	class:Sockets::Socket	access:protected
+Sockets::Socket::validState	Sockets.h	/^    bool validState() { return socket_ != INVALID_SOCKET; }$/;"	f	class:Sockets::Socket	access:public	signature:()
+Sockets::Socket::waitForData	Sockets.h	/^    bool waitForData(size_t timeToWait, size_t timeToCheck);$/;"	p	class:Sockets::Socket	access:public	signature:(size_t timeToWait, size_t timeToCheck)
+Sockets::Socket::wsaData	Sockets.h	/^    WSADATA wsaData;$/;"	m	class:Sockets::Socket	access:protected
+Sockets::Socket::~Socket	Sockets.h	/^    virtual ~Socket();$/;"	p	class:Sockets::Socket	access:public	signature:()
+Sockets::SocketConnecter	Sockets.h	/^  class SocketConnecter : public Socket$/;"	c	namespace:Sockets	inherits:Socket
+Sockets::SocketConnecter::SocketConnecter	Sockets.h	/^    SocketConnecter();$/;"	p	class:Sockets::SocketConnecter	access:public	signature:()
+Sockets::SocketConnecter::SocketConnecter	Sockets.h	/^    SocketConnecter(SocketConnecter&& s);$/;"	p	class:Sockets::SocketConnecter	access:public	signature:(SocketConnecter&& s)
+Sockets::SocketConnecter::connect	Sockets.h	/^    bool connect(const std::string& ip, size_t port);$/;"	p	class:Sockets::SocketConnecter	access:public	signature:(const std::string& ip, size_t port)
+Sockets::SocketConnecter::operator =	Sockets.h	/^    SocketConnecter& operator=(SocketConnecter&& s);$/;"	p	class:Sockets::SocketConnecter	access:public	signature:(SocketConnecter&& s)
+Sockets::SocketConnecter::s	Sockets.h	/^    SocketConnecter& operator=(const SocketConnecter& s) = delete;$/;"	m	class:Sockets::SocketConnecter	access:public
+Sockets::SocketConnecter::s	Sockets.h	/^    SocketConnecter(const SocketConnecter& s) = delete;$/;"	m	class:Sockets::SocketConnecter	access:public
+Sockets::SocketConnecter::~SocketConnecter	Sockets.h	/^    virtual ~SocketConnecter();$/;"	p	class:Sockets::SocketConnecter	access:public	signature:()
+Sockets::SocketListener	Sockets.h	/^  class SocketListener : public Socket$/;"	c	namespace:Sockets	inherits:Socket
+Sockets::SocketListener::SocketListener	Sockets.h	/^    SocketListener(SocketListener&& s);$/;"	p	class:Sockets::SocketListener	access:public	signature:(SocketListener&& s)
+Sockets::SocketListener::SocketListener	Sockets.h	/^    SocketListener(size_t port, IpVer ipv = IP6);$/;"	p	class:Sockets::SocketListener	access:public	signature:(size_t port, IpVer ipv = IP6)
+Sockets::SocketListener::accept	Sockets.h	/^    Socket accept();$/;"	p	class:Sockets::SocketListener	access:private	signature:()
+Sockets::SocketListener::acceptFailed_	Sockets.h	/^    bool acceptFailed_ = false;$/;"	m	class:Sockets::SocketListener	access:private
+Sockets::SocketListener::bind	Sockets.h	/^    bool bind();$/;"	p	class:Sockets::SocketListener	access:private	signature:()
+Sockets::SocketListener::listen	Sockets.h	/^    bool listen();$/;"	p	class:Sockets::SocketListener	access:private	signature:()
+Sockets::SocketListener::operator =	Sockets.h	/^    SocketListener& operator=(SocketListener&& s);$/;"	p	class:Sockets::SocketListener	access:public	signature:(SocketListener&& s)
+Sockets::SocketListener::port_	Sockets.h	/^    size_t port_;$/;"	m	class:Sockets::SocketListener	access:private
+Sockets::SocketListener::s	Sockets.h	/^    SocketListener& operator=(const SocketListener& s) = delete;$/;"	m	class:Sockets::SocketListener	access:public
+Sockets::SocketListener::s	Sockets.h	/^    SocketListener(const SocketListener& s) = delete;$/;"	m	class:Sockets::SocketListener	access:public
+Sockets::SocketListener::start	Sockets.h	/^    bool start(CallObj& co);$/;"	p	class:Sockets::SocketListener	access:public	signature:(CallObj& co)
+Sockets::SocketListener::start	Sockets.h	/^  bool SocketListener::start(CallObj& co)$/;"	f	class:Sockets::SocketListener	signature:(CallObj& co)
+Sockets::SocketListener::stop	Sockets.h	/^    void stop();$/;"	p	class:Sockets::SocketListener	access:public	signature:()
+Sockets::SocketListener::stop_	Sockets.h	/^    std::atomic<bool> stop_ = false;$/;"	m	class:Sockets::SocketListener	access:private
+Sockets::SocketListener::~SocketListener	Sockets.h	/^    virtual ~SocketListener();$/;"	p	class:Sockets::SocketListener	access:public	signature:()
+Sockets::SocketSystem	Sockets.h	/^  class SocketSystem$/;"	c	namespace:Sockets
+Sockets::SocketSystem::SocketSystem	Sockets.h	/^    SocketSystem();$/;"	p	class:Sockets::SocketSystem	access:public	signature:()
+Sockets::SocketSystem::iResult	Sockets.h	/^    int iResult;$/;"	m	class:Sockets::SocketSystem	access:private
+Sockets::SocketSystem::wsaData	Sockets.h	/^    WSADATA wsaData;$/;"	m	class:Sockets::SocketSystem	access:private
+Sockets::SocketSystem::~SocketSystem	Sockets.h	/^    ~SocketSystem();$/;"	p	class:Sockets::SocketSystem	access:public	signature:()
+WIN32	Sockets.vcxproj	/^      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)<\/PreprocessorDefinitions>$/;"	v
+WIN32_LEAN_AND_MEAN	Sockets.h	123;"	d
+__anon1::$	tags	/^Socket::~Socket	Sockets.cpp	\/^Socket::~Socket() {$\/;"	f	class:Socket	signature:()$/;"	m	class:__anon1	file:	access:private
+accept	Sockets.cpp	/^Socket SocketListener::accept()$/;"	f	class:SocketListener	signature:()
+accept	Sockets.h	/^    Socket accept();$/;"	p	class:Sockets::SocketListener	access:private	signature:()
+acceptFailed_	Sockets.h	/^    bool acceptFailed_ = false;$/;"	m	class:Sockets::SocketListener	access:private
+bind	Sockets.cpp	/^bool SocketListener::bind()$/;"	f	class:SocketListener	signature:()
+bind	Sockets.h	/^    bool bind();$/;"	p	class:Sockets::SocketListener	access:private	signature:()
+bytesWaiting	Sockets.cpp	/^size_t Socket::bytesWaiting()$/;"	f	class:Socket	signature:()
+bytesWaiting	Sockets.h	/^    size_t bytesWaiting();$/;"	p	class:Sockets::Socket	access:public	signature:()
+clearBuffer	Sockets.cpp	/^void clearBuffer(Socket::byte* buffer, size_t BufLen)$/;"	f	signature:(Socket::byte* buffer, size_t BufLen)
+clientTestBufferHandling	Sockets.cpp	/^void clientTestBufferHandling(Socket& si)$/;"	f	signature:(Socket& si)
+clientTestStringHandling	Sockets.cpp	/^void clientTestStringHandling(Socket& si)$/;"	f	signature:(Socket& si)
+close	Sockets.cpp	/^void Socket::close()$/;"	f	class:Socket	signature:()
+close	Sockets.h	/^    void close();$/;"	p	class:Sockets::Socket	access:public	signature:()
+connect	Sockets.cpp	/^bool SocketConnecter::connect(const std::string& ip, size_t port)$/;"	f	class:SocketConnecter	signature:(const std::string& ip, size_t port)
+connect	Sockets.h	/^    bool connect(const std::string& ip, size_t port);$/;"	p	class:Sockets::SocketConnecter	access:public	signature:(const std::string& ip, size_t port)
+dE	ClassDiagram.PNG	/^/;"	v
+format	tags	/^!_TAG_FILE_FORMAT	2	\/extended format; --format=1 will not append ;" to lines\/$/;"	v
+hints	Sockets.h	/^    struct addrinfo *result = NULL, *ptr = NULL, hints;$/;"	m	class:Sockets::Socket	typeref:struct:Sockets::Socket::	access:protected
+iResult	Sockets.h	/^    int iResult;$/;"	m	class:Sockets::Socket	access:protected
+iResult	Sockets.h	/^    int iResult;$/;"	m	class:Sockets::SocketSystem	access:private
+ipVer	Sockets.cpp	/^Socket::IpVer& Socket::ipVer()$/;"	f	class:Socket	signature:()
+ipVer	Sockets.h	/^    IpVer& ipVer();$/;"	p	class:Sockets::Socket	access:public	signature:()
+ipver_	Sockets.h	/^    IpVer ipver_ = IP4;$/;"	m	class:Sockets::Socket	access:protected
+listen	Sockets.cpp	/^bool SocketListener::listen()$/;"	f	class:SocketListener	signature:()
+listen	Sockets.h	/^    bool listen();$/;"	p	class:Sockets::SocketListener	access:private	signature:()
+m	ClassDiagram.pdf	/^xúmé;¬@Ñ˚É˚S™≈e7π<Bä<ä±â©¢®ˇ\\ÉB$/;"	v
+main	Sockets.cpp	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+operator ()	Sockets.cpp	/^  void operator()(Socket& socket_);$/;"	p	class:ClientHandler	file:	access:public	signature:(Socket& socket_)
+operator ()	Sockets.cpp	/^void ClientHandler::operator()(Socket& socket_)$/;"	f	class:ClientHandler	signature:(Socket& socket_)
+operator =	Sockets.cpp	/^Socket& Socket::operator=(Socket&& s)$/;"	f	class:Socket	signature:(Socket&& s)
+operator =	Sockets.cpp	/^SocketConnecter& SocketConnecter::operator=(SocketConnecter&& s)$/;"	f	class:SocketConnecter	signature:(SocketConnecter&& s)
+operator =	Sockets.cpp	/^SocketListener& SocketListener::operator=(SocketListener&& s)$/;"	f	class:SocketListener	signature:(SocketListener&& s)
+operator =	Sockets.h	/^    Socket& operator=(Socket&& s);$/;"	p	class:Sockets::Socket	access:public	signature:(Socket&& s)
+operator =	Sockets.h	/^    SocketConnecter& operator=(SocketConnecter&& s);$/;"	p	class:Sockets::SocketConnecter	access:public	signature:(SocketConnecter&& s)
+operator =	Sockets.h	/^    SocketListener& operator=(SocketListener&& s);$/;"	p	class:Sockets::SocketListener	access:public	signature:(SocketListener&& s)
+port_	Sockets.h	/^    size_t port_;$/;"	m	class:Sockets::SocketListener	access:private
+ptr	Sockets.h	/^    struct addrinfo *result = NULL, *ptr = NULL, hints;$/;"	m	class:Sockets::Socket	typeref:struct:Sockets::Socket::	access:protected
+recv	Sockets.cpp	/^bool Socket::recv(size_t bytes, byte* buffer)$/;"	f	class:Socket	signature:(size_t bytes, byte* buffer)
+recv	Sockets.h	/^    bool recv(size_t bytes, byte* buffer);$/;"	p	class:Sockets::Socket	access:public	signature:(size_t bytes, byte* buffer)
+recvStream	Sockets.cpp	/^size_t Socket::recvStream(size_t bytes, byte* pBuf)$/;"	f	class:Socket	signature:(size_t bytes, byte* pBuf)
+recvStream	Sockets.h	/^    size_t recvStream(size_t bytes, byte* buffer);$/;"	p	class:Sockets::Socket	access:public	signature:(size_t bytes, byte* buffer)
+recvString	Sockets.cpp	/^std::string Socket::recvString(byte terminator)$/;"	f	class:Socket	signature:(byte terminator)
+recvString	Sockets.h	/^    std::string recvString(byte terminator = '\\0');$/;"	p	class:Sockets::Socket	access:public	signature:(byte terminator = √)
+removeTerminator	Sockets.cpp	/^std::string Socket::removeTerminator(const std::string& src)$/;"	f	class:Socket	signature:(const std::string& src)
+removeTerminator	Sockets.h	/^    static std::string removeTerminator(const std::string& src);$/;"	p	class:Sockets::Socket	access:public	signature:(const std::string& src)
+result	Sockets.h	/^    struct addrinfo *result = NULL, *ptr = NULL, hints;$/;"	m	class:Sockets::Socket	typeref:struct:Sockets::Socket::addrinfo	access:protected
+s	Sockets.h	/^    Socket& operator=(const Socket& s) = delete;$/;"	m	class:Sockets::Socket	access:public
+s	Sockets.h	/^    SocketConnecter& operator=(const SocketConnecter& s) = delete;$/;"	m	class:Sockets::SocketConnecter	access:public
+s	Sockets.h	/^    SocketConnecter(const SocketConnecter& s) = delete;$/;"	m	class:Sockets::SocketConnecter	access:public
+s	Sockets.h	/^    SocketListener& operator=(const SocketListener& s) = delete;$/;"	m	class:Sockets::SocketListener	access:public
+s	Sockets.h	/^    SocketListener(const SocketListener& s) = delete;$/;"	m	class:Sockets::SocketListener	access:public
+send	Sockets.cpp	/^bool Socket::send(size_t bytes, byte* buffer)$/;"	f	class:Socket	signature:(size_t bytes, byte* buffer)
+send	Sockets.h	/^    bool send(size_t bytes, byte* buffer);$/;"	p	class:Sockets::Socket	access:public	signature:(size_t bytes, byte* buffer)
+sendStream	Sockets.cpp	/^size_t Socket::sendStream(size_t bytes, byte* pBuf)$/;"	f	class:Socket	signature:(size_t bytes, byte* pBuf)
+sendStream	Sockets.h	/^    size_t sendStream(size_t bytes, byte* buffer);$/;"	p	class:Sockets::Socket	access:public	signature:(size_t bytes, byte* buffer)
+sendString	Sockets.cpp	/^bool Socket::sendString(const std::string& str, byte terminator)$/;"	f	class:Socket	signature:(const std::string& str, byte terminator)
+sendString	Sockets.h	/^    bool sendString(const std::string& str, byte terminator = '\\0');$/;"	p	class:Sockets::Socket	access:public	signature:(const std::string& str, byte terminator = √)
+shutDown	Sockets.cpp	/^bool Socket::shutDown()$/;"	f	class:Socket	signature:()
+shutDown	Sockets.h	/^    bool shutDown();$/;"	p	class:Sockets::Socket	access:public	signature:()
+shutDownRecv	Sockets.cpp	/^bool Socket::shutDownRecv()$/;"	f	class:Socket	signature:()
+shutDownRecv	Sockets.h	/^    bool shutDownRecv();$/;"	p	class:Sockets::Socket	access:public	signature:()
+shutDownSend	Sockets.cpp	/^bool Socket::shutDownSend()$/;"	f	class:Socket	signature:()
+shutDownSend	Sockets.h	/^    bool shutDownSend();$/;"	p	class:Sockets::Socket	access:public	signature:()
+socket_	Sockets.h	/^    ::SOCKET socket_;$/;"	m	class:Sockets::Socket	access:protected
+start	Sockets.h	/^    bool start(CallObj& co);$/;"	p	class:Sockets::SocketListener	access:public	signature:(CallObj& co)
+start	Sockets.h	/^  bool SocketListener::start(CallObj& co)$/;"	f	class:Sockets::SocketListener	signature:(CallObj& co)
+stop	Sockets.cpp	/^void SocketListener::stop()$/;"	f	class:SocketListener	signature:()
+stop	Sockets.h	/^    void stop();$/;"	p	class:Sockets::SocketListener	access:public	signature:()
+stop_	Sockets.h	/^    std::atomic<bool> stop_ = false;$/;"	m	class:Sockets::SocketListener	access:private
+testBufferHandling	Sockets.cpp	/^  bool testBufferHandling(Socket& socket_);$/;"	p	class:ClientHandler	file:	access:public	signature:(Socket& socket_)
+testBufferHandling	Sockets.cpp	/^bool ClientHandler::testBufferHandling(Socket& socket_)$/;"	f	class:ClientHandler	signature:(Socket& socket_)
+testStringHandling	Sockets.cpp	/^  bool testStringHandling(Socket& socket_);$/;"	p	class:ClientHandler	file:	access:public	signature:(Socket& socket_)
+testStringHandling	Sockets.cpp	/^bool ClientHandler::testStringHandling(Socket& socket_)$/;"	f	class:ClientHandler	signature:(Socket& socket_)
+validState	Sockets.h	/^    bool validState() { return socket_ != INVALID_SOCKET; }$/;"	f	class:Sockets::Socket	access:public	signature:()
+waitForData	Sockets.cpp	/^bool Socket::waitForData(size_t timeToWait, size_t timeToCheck)$/;"	f	class:Socket	signature:(size_t timeToWait, size_t timeToCheck)
+waitForData	Sockets.h	/^    bool waitForData(size_t timeToWait, size_t timeToCheck);$/;"	p	class:Sockets::Socket	access:public	signature:(size_t timeToWait, size_t timeToCheck)
+wsaData	Sockets.h	/^    WSADATA wsaData;$/;"	m	class:Sockets::Socket	access:protected
+wsaData	Sockets.h	/^    WSADATA wsaData;$/;"	m	class:Sockets::SocketSystem	access:private
+zi	ClassDiagram.PNG	/^πGÍ§; Û|jÕv<∫‘Æ≤˝>◊nr˘¯3_◊6ÚT á®¨ò7˚ä∫éQ.ó«4k˜Qa∂çz^j•KÁ‰•}Õ¨øÀ>∫õ‹?˝|tî¢ziêëü›£ÒæêÚñÍ=k|?Îª≥r˛q;π˛º?åÔ√•}À˚c>;>˜˛πmÁ¸u;O≠#*^œ*è7ﬂﬂ£‹˜⁄éÖ‹ÛE‘M∑sôùP≠ËdRv∞ı≥Ïî‚œêÀ≈∫¬ÿiÂÙÏºÚÛ0Œõ˚ì€;…Ò˝Sr{ŸÜXÆn\/^◊˜π?πLˇ∏˝®À≈Î<!∑r˘ú˛‹ÒÃé\/˜)oÒ:™û«Ur_é‘IwîÁ˘^d®UÂg„√PTº~Æ›‰Ùl„µΩº§$/;"	v
+~Socket	Sockets.cpp	/^Socket::~Socket() {$/;"	f	class:Socket	signature:()
+~Socket	Sockets.h	/^    virtual ~Socket();$/;"	p	class:Sockets::Socket	access:public	signature:()
+~SocketConnecter	Sockets.cpp	/^SocketConnecter::~SocketConnecter()$/;"	f	class:SocketConnecter	signature:()
+~SocketConnecter	Sockets.h	/^    virtual ~SocketConnecter();$/;"	p	class:Sockets::SocketConnecter	access:public	signature:()
+~SocketListener	Sockets.cpp	/^SocketListener::~SocketListener()$/;"	f	class:SocketListener	signature:()
+~SocketListener	Sockets.h	/^    virtual ~SocketListener();$/;"	p	class:Sockets::SocketListener	access:public	signature:()
+~SocketSystem	Sockets.cpp	/^SocketSystem::~SocketSystem()$/;"	f	class:SocketSystem	signature:()
+~SocketSystem	Sockets.h	/^    ~SocketSystem();$/;"	p	class:Sockets::SocketSystem	access:public	signature:()
